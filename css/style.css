@@ -220,14 +220,12 @@ body {
 .text-img-1a{
     padding-top: 30px;
 }
-.text-img img{
-    width: 100%;
-}
 .work{
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
     background-size: 100% 50%;
     background-repeat: no-repeat;
-    padding: 100px 0;
+    padding-top: 100px;
+    margin-bottom: 85px;
 }
 .work-items{
     display: flex;
@@ -275,7 +273,50 @@ color: #4985FF;
     color: #4985FF; 
     text-decoration: underline;
 }
-
+.main-4{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.text-4 span{
+font-size: 36px;
+font-weight: bold;
+}
+.text-4 p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.img-4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -20px;
+    margin-right: -20px;
+}
+.img-item1{
+    width: calc(24.3% - 60px);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;  
+}
+.button-4{
+    margin-top: 50px;
+}
+.main-5{
+    background: url(../img/Rectanglesss.png) ;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+.main-5-text span{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+}
+.main-5-text p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+}
 
 
 
@@ -325,7 +366,15 @@ color: #4985FF;
     .work-item a{
         font-size: 20px;
     }
-
+    .work-a{
+        margin-bottom: 60px;
+    }
+    .img-item1{
+        width: calc(50% - 60px);
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;  
+    }
 }
 @media screen and (max-width: 1000px) {
     .container{
@@ -402,7 +451,24 @@ color: #4985FF;
         padding-bottom: 40px;
     }
     .work-text{
-        width: 36%;
+        text-align: center;
+    }
+    .text-4 p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .img-item1{
+        width: calc(100% - 60px);
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;  
+    }
+    .work{
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+    .text-img img {
+        width: 100%;
     }
 }
 
