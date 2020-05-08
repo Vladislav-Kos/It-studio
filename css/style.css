@@ -101,7 +101,10 @@ body {
 	transform: translationX(100%);
 }
 .main-1{
-    margin: 110px 105px;
+    margin: 110px 0;
+}
+.main-2{
+    margin: 110px 0;
 }
 .wrapper-items{
     display: flex;
@@ -220,6 +223,23 @@ body {
 .text-img img{
     width: 100%;
 }
+.work{
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+.work-items{
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1200px) {
