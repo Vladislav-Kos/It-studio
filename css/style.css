@@ -304,12 +304,13 @@ font-weight: bold;
 }
 .main-5{
     background: url(../img/Rectanglesss.png) ;
-    background-size: 100% 70%;
+    background-size: 100% 80%;
     background-repeat: no-repeat;
 }
 .main-5-text{
     position: relative;
     text-align: center;
+    border-bottom: 1px solid #E0E0E0;
 }
 .main-5-text span{
     font-weight: bold;
@@ -322,8 +323,42 @@ font-weight: bold;
     color: #fff;
 }
 .main-5 button{
-    margin-bottom: 0;
-    
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 18px;
+    padding: 17px 35px 17px 35px;
+    border-radius: 50px;
+    color: #fff;
+    transition: all linear .3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.btn-5{
+    background: url(../img/ffffff.png) center;
+    background-repeat: no-repeat;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px
+}
+.btn-5 svg{
+    width: 60px;
+    height: 60px;
+    padding-right: 25px;
+}
+.main-5-text-2{
+    padding: 70px 0px 70px 0px;
+}
+.main-5-text-2 span{
+    font-weight: bold;
+    font-size: 36px;
+}
+.main-5-text-2 p{
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 35px;
 }
 
 
