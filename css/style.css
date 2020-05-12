@@ -72,7 +72,7 @@ body {
 }
 .btn-it{
     background-color: #4985FF;
-    border: 2px solid #4985FF;
+    border: transparent;
     font-size: 16px;
     padding: 12px 35px 12px 35px;
     border-radius: 50px;
@@ -384,10 +384,15 @@ font-weight: bold;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 0px 30px 30px 0px;
     padding: 15px 45px 15px 45px;
-    border: 2px solid #4985FF;
+    border: transparent;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.main-6 button:hover{
+    background-color: rgb(134, 168, 235);
 }
 .main-6-btn-a{
     display: flex;
