@@ -303,9 +303,10 @@ font-weight: bold;
     margin-top: 50px;
 }
 .main-5{
-    background: url(../img/Rectanglesss.png) ;
-    background-size: 100% 80%;
+    background: url(../img/Rectanglesss.png);
+    background-size: auto 76%;
     background-repeat: no-repeat;
+    background-position: top center;
 }
 .main-5-text{
     position: relative;
@@ -343,6 +344,7 @@ font-weight: bold;
     align-items: center;
     width: 100%;
     background-size: cover;
+    margin-bottom: 85px;
 }
 .btn-5 img{
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
@@ -364,23 +366,70 @@ font-weight: bold;
     font-size: 16px;
     padding-top: 35px;
 }
-.main-6 a {
+.main-5-text img{
+    padding-bottom: 50px;
+}
+.main-6 input{
     border: 1px solid #F2F2F2;
     box-sizing: border-box;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px 0px 0px 30px;
-    padding: 15px 100px 15px 20px;
+    padding: 15px 120px 15px 20px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #999999;
 }
 .main-6 button {
     background: #4985FF;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 0px 30px 30px 0px;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 45px 15px 45px;
     border: 2px solid #4985FF;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
 }
 .main-6-btn-a{
     display: flex;
     justify-content: center;
+    margin: 30px 0px 35px 0px;
+}
+.main-6{
+    text-align: center;
+}
+.main-6-text h3{
+    margin: 0px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.main-6-text span{
+    font-weight: normal;
+    font-size: 16px;
+}
+.main-6-text p{
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 85px;
+}
+.main-6-text{
+    margin-top: 85px;
+}
+.footer{
+    background: #F6F6F8;
+}
+.footer-items{
+    display: flex;
+}
+.end{
+    text-align: center;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+.footer-item1{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -476,9 +525,6 @@ font-weight: bold;
     .main-5-text-2 {
         padding: 40px 0px 40px 0px;
     }
-    .main-5 {
-        background-size: 100% 63%;
-    }
 }
 @media screen and (max-width: 600px) {
     .container{
@@ -553,11 +599,30 @@ font-weight: bold;
         font-size: 13px;
         padding: 10px 35px 10px 35px;
     }
-    .main-5 {
-        background-size: 100% 50%;
-    }
     .main-4 {
         margin-bottom: 50px;
+    }
+    .main-6 button {
+        padding: 5px 10px 5px 10px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    .main-6-text h3{
+        margin: 30px 0px 20px 0px;
+    }
+    .main-6-text p {
+        margin-bottom: 30px;
+    }
+    .main-6-text {
+        margin-top: 15px;
+    }
+    .main-6-btn-a {
+        flex-direction: column;
+    }
+    .main-6 input {
+        border-radius: 30px;
+        padding: 15px 20px 15px 20px;
+        text-align: center;
     }
 }
 
