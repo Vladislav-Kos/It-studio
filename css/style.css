@@ -442,10 +442,9 @@ font-weight: bold;
     padding-bottom: 30px;
 }
 .footer-item1{
-    width: calc(25% - 60px);
+    width: calc(25% - 30px);
     margin-bottom: 20px;
-    margin-right: 20px;
-    padding: 20px; 
+    margin-right: 30px; 
 }
 .footer-item1 li{
     display: flex;
@@ -456,7 +455,6 @@ font-weight: bold;
     font-weight: normal;
     font-size: 14px;
     color: #999999;
-    padding-left: 10px;
 }
 .footer-item1 h3{
     padding-bottom: 30px;
@@ -551,7 +549,7 @@ a.a-3::before{
         height: 355px;
     }
     .footer-item1 {
-        width: calc(33% - 60px);
+        width: calc(50% - 30px);
     }
 }
 @media screen and (max-width: 820px) {
